@@ -14,6 +14,7 @@ export const generateMetadata = async ({params}: Props): Promise<Metadata> => {
   })
   return {
     title: `Product ${title}`
+    
   }
 }
 
@@ -24,3 +25,4 @@ export default function ProductDetails({
 }: Props) {
   return <h1>Details about product {params.productId}</h1>;
 }
+
